@@ -1,0 +1,12 @@
+@import "../bootstrap/scss/functions";
+@import "../bootstrap/scss/variables";
+@import "../bootstrap/scss/mixins";
+$body-bg: #cff6f658;
+$primary: #00d924;
+$danger: #ff3697;
+$info:purple;
+$custom-colors: (
+  'info':purple,
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+@import "../bootstrap/scss/bootstrap.scss";

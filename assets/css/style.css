@@ -1,0 +1,78 @@
+.card{
+    box-shadow: 0px 0px 13px 2px purple;
+    border-radius: 40px 40px 40px 40px;
+}
+.card:hover{
+    box-shadow: 0px 0px 13px 2px lightgreen;
+    background-color: rgba(246, 207, 246, 0.479);
+    color: navy; 
+}
+
+h4{
+    font-size: 14pt;
+    color: navy;
+    text-align: center;
+    margin-bottom: 30px;
+}
+nav {
+    height: 40px;
+}
+nav a{
+    color: white!important;
+}
+#home{
+    margin-top: 80px!important;
+    height: 80vh;
+}
+#item{
+    margin-top: 80px!important;
+}
+img{
+    align-items: center;
+}
+#Product, #Product1{
+    margin-top: 40px;
+}
+.prod{
+    border: 1px solid lightgray;
+    text-align: center;
+    box-shadow: 2px 2px 2px lightgray;
+}
+table{
+    font-size: 10pt;
+}
+tr td:nth-child(odd){
+    width:50%;
+}
+tr td:nth-child(even){
+    font-weight: bolder;
+}
+li{
+    padding: 10px;
+}
+.imageContainer:hover > img {
+    transform: scale(1.5); /* Zoom factor */
+}
+.card{
+    height: 65vh;
+}
+#Product img, #Product1 img, #Brand img{
+    width:100%
+}
+.watch img{
+    width: 75% !important;
+}
+@media only screen and (max-width: 1200px) {
+    #Product img, #Product1 img, #Brand img{
+        width:70%
+    }
+    .watch img{
+        width: 55% !important;
+    }
+}
+footer{
+    background-color: lightgray;
+    color:gray;
+    text-align: center;
+    font-size: 9pt;
+}
